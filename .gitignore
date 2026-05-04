@@ -41,3 +41,10 @@ tests/fixtures/
 AGENTS.md
 /.claude
 /discord-style-navstation
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

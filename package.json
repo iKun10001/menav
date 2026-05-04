@@ -19,7 +19,9 @@
     "format:check": "node ./scripts/format.js --check",
     "format:check:changed": "node ./scripts/format-check-changed.js",
     "check": "node ./scripts/check.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "keywords": [
     "navigation",
@@ -39,7 +41,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
-    "serve": "^14.2.6"
+    "serve": "^14.2.6",
+    "wrangler": "^4.87.0"
   },
   "overrides": {
     "brace-expansion": "1.1.12"
